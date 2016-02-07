@@ -54,7 +54,7 @@ namespace WindowsFormsApplication1
         {
             int x;
             x = textBox2.SelectionStart;
-            textBox2.Text = textBox2.Text + "Joker";
+            textBox2.Text = textBox2.Text + "\nJoker";
             textBox2.SelectionStart = x;
             progressBar1.Value = e.ProgressPercentage;
             procent = e.ProgressPercentage;

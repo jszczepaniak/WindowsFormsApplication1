@@ -55,6 +55,8 @@ namespace WindowsFormsApplication1
         private void button2_Click(object sender, EventArgs e)
         {
             backgroundWorker3.CancelAsync();
+            folderBrowserDialog1.ShowDialog();
+            MessageBox.Show(folderBrowserDialog1.SelectedPath);
         }
     }
 }
